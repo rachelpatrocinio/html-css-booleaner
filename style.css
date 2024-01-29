@@ -1,1 +1,15 @@
 
+#main-header{
+    background-image: url(./img/pattern.png);
+    background-size: contain;
+    background-color: rgb(100, 145, 197);   
+}
+
+#logo-background{
+    width: 80%;
+    margin: 0 auto;
+}
+
+#logo-img{
+    width:200px;
+}

@@ -2,6 +2,8 @@
     font-family: 'Quicksand', sans-serif;
 }
 
+/* Header */
+
 #main-header{
     background-image: url(./img/pattern.png);
     background-size: contain;
@@ -15,19 +17,41 @@
 
 #logo-img{
     width:200px;
+    margin-top: 40px;
 }
 
-/*  */
+/* Main */
 
 main{
     width: 80%;
     margin: 0 auto;
 }
 
+/* First Section */
+
+#title{
+    margin-bottom: 0;
+}
+
+#title-description{
+    margin-top: 0;
+    font-size: 18px;
+    color: rgb(128,128,128);
+}
+
+#colored-description{
+    color: rgb(100, 145, 197);
+}
+
+.img-description{
+    display: block;
+    font-size: 13px;
+}
 /* Second Section - Table */
 
 table{
     width: 100%;
+    border-collapse:collapse;
 }
 
 thead{
@@ -43,7 +67,7 @@ thead{
 /* Aside */
 
 #aside-title{
-    color: grey;
+    color: rgb(128,128,128);
 }
 
 .img-aside{

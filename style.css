@@ -1,3 +1,6 @@
+*{
+    font-family: 'Quicksand', sans-serif;
+}
 
 #main-header{
     background-image: url(./img/pattern.png);
@@ -36,3 +39,29 @@ thead{
 .colored-tr{
     background-color: rgba(100, 145, 197, 0.415);
 }
+
+/* Aside */
+
+#aside-title{
+    color: grey;
+}
+
+.img-aside{
+    width: 300px;
+    height: 200px;
+}
+
+#monitor{
+    background-image: url(./img/monitor.jpg);
+}
+
+#graph{
+    background-image: url(./img/graph.jpg);
+}
+
+.img-title{
+    color: rgb(255, 255, 255);
+    font-size: 24px;
+    font-weight: 600;
+}
+

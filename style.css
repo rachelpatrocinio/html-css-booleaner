@@ -2,6 +2,11 @@
     font-family: 'Quicksand', sans-serif;
 }
 
+.wrapper{
+    width: 80%;
+    margin: 0 auto;
+}
+
 /* Header */
 
 #main-header{
@@ -10,21 +15,9 @@
     background-color: rgb(100, 145, 197);   
 }
 
-#logo-background{
-    width: 80%;
-    margin: 0 auto;
-}
-
 #logo-img{
     width:200px;
     margin-top: 40px;
-}
-
-/* Main */
-
-main{
-    width: 80%;
-    margin: 0 auto;
 }
 
 /* First Section */
@@ -60,8 +53,12 @@ thead{
     text-align: left;
 }
 
-.colored-tr{
+.lightblue-bg{
     background-color: rgba(100, 145, 197, 0.415);
+}
+
+.thirdcell{
+    width: 50%;
 }
 
 /* Aside */

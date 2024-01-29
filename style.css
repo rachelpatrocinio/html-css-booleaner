@@ -20,3 +20,19 @@ main{
     width: 80%;
     margin: 0 auto;
 }
+
+/* Second Section - Table */
+
+table{
+    width: 100%;
+}
+
+thead{
+    color: rgb(255, 255, 255);
+    background-color: rgb(100, 145, 197);
+    text-align: left;
+}
+
+.colored-tr{
+    background-color: rgba(100, 145, 197, 0.415);
+}
